@@ -103,6 +103,7 @@ margin-top: 20px;
   padding: 10px 6px;
   height: 60px;
   background: #545879;
+  
 }
 .profile_content .profile .profile_details{
   display: flex;
@@ -114,9 +115,11 @@ margin-top: 20px;
   width: 45px;
   object-fit: cover;
   border-radius: 12px;
+  align-items: center;
+  margin-top: 0.1em;
 }
 .profile .profile_details .name_job{
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
 .profile .profile_details .name{
@@ -129,7 +132,7 @@ margin-top: 20px;
 .profile #log_out{
   position: absolute;
   left: 88%;
-  bottom: 5px;
+  bottom: 2px;
   transform: translateX(-50%);
   min-width: 50px;
   line-height: 50px;
