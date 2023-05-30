@@ -94,7 +94,7 @@ margin-top: 20px;
 .sidebar .profile_content{
   position: absolute;
   color: #fff;
-  bottom: 15px;
+  bottom: 0px;
   left: 0;
   width: 100%;
 }
