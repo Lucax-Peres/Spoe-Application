@@ -96,11 +96,13 @@ margin-top: 20px;
   color: #fff;
   bottom: 15px;
   left: 0;
+  width: 100%;
 }
 .sidebar .profile_content .profile{
   position: relative;
   padding: 10px 6px;
   height: 60px;
+  background: #545879;
 }
 .profile_content .profile .profile_details{
   display: flex;
@@ -114,7 +116,7 @@ margin-top: 20px;
   border-radius: 12px;
 }
 .profile .profile_details .name_job{
-  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .profile .profile_details .name{
@@ -123,4 +125,14 @@ margin-top: 20px;
 }
 .profile .profile_details .job{
   font-size: 12px;
+}
+.profile #log_out{
+  position: absolute;
+  left: 88%;
+  bottom: 5px;
+  transform: translateX(-50%);
+  min-width: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  border-radius: 12px;
 }
