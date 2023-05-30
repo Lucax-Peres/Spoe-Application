@@ -61,7 +61,7 @@ margin-top: 20px;
   margin: 0 5px;
   list-style: none;
 }
-/* Serach Button */
+/* Search Button */
 .sidebar ul li .bx-search-alt-2{
   position: absolute;
   z-index: 99;
@@ -90,6 +90,7 @@ margin-top: 20px;
   text-align: center;
   color: black;
 }
+/* Profile Details and Image Ajust */
 .sidebar .profile_content{
   position: absolute;
   color: #fff;
@@ -104,10 +105,22 @@ margin-top: 20px;
 .profile_content .profile .profile_details{
   display: flex;
   align-items: center;
+
 }
 .profile .profile_details img{
   height: 45px;
   width: 45px;
   object-fit: cover;
   border-radius: 12px;
+}
+.profile .profile_details .name_job{
+  margin-right: 10px;
+}
+
+.profile .profile_details .name{
+  font-size: 15px;
+  font-weight: 400;
+}
+.profile .profile_details .job{
+  font-size: 12px;
 }
