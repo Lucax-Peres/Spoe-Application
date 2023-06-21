@@ -154,3 +154,13 @@ div .narrative > p {
   border-radius: 12px;
 }
 
+div .bodycontent{
+    position: absolute;
+    bottom: 0;
+    left: 310px;
+    height: 725px;
+    width: 1200px;
+    margin: 10px 10px 10px 10px;
+    background-color:#545879;
+    border-radius: 10px;
+}
